@@ -1,0 +1,10 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  
+    h2 {
+      margin: 10px 0;
+      text-shadow: 1px 1px 1px white, 1px 1px 1px rgb(23, 5, 104);
+    }
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Router/home/home.component';
 import NavBar from './Router/navigation/nav.component';
-import SignIn from './Router/sign-in/sign-in.component';
+import Authentication from './Router/authentication/authentication.component';
 import {
   BrowserRouter as Router,
   Routes,
@@ -21,7 +21,7 @@ export default function App() {
         <Route path='/' element={<NavBar />}>
           <Route index element={<Home />} />
           <Route path='shop' element={<Shop />} />
-          <Route path='sign-in' element={<SignIn />} />
+          <Route path='auth' element={<Authentication />} />
         </Route>
 
       </Routes>
