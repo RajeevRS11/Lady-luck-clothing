@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import FormInput from '../form-input/form-input.component.jsx';
 import Button from '../button/button.component.jsx';
 
@@ -17,9 +16,10 @@ const defaultFormFields = {
   confirmPassword: '',
 };
 
-export default function SignUpForm () {
+export default function SignUpForm() {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { displayName, email, password, confirmPassword } = formFields;
+
 
   const resetFormFields = () => {
     setFormFields(defaultFormFields);
