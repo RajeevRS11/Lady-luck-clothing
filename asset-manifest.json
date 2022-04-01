@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Lady-luck-clothing/static/css/main.4f0d503f.css",
+    "main.js": "/Lady-luck-clothing/static/js/main.2b54c298.js",
+    "static/js/787.d7ece244.chunk.js": "/Lady-luck-clothing/static/js/787.d7ece244.chunk.js",
+    "static/media/trash.svg": "/Lady-luck-clothing/static/media/trash.ae92b10716278e105675d368fc07a7bd.svg",
+    "static/media/kingscrwn.svg": "/Lady-luck-clothing/static/media/kingscrwn.d5433e2e211112806dfb4b8499f810a1.svg",
+    "static/media/bag.svg": "/Lady-luck-clothing/static/media/bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "index.html": "/Lady-luck-clothing/index.html",
+    "main.4f0d503f.css.map": "/Lady-luck-clothing/static/css/main.4f0d503f.css.map",
+    "main.2b54c298.js.map": "/Lady-luck-clothing/static/js/main.2b54c298.js.map",
+    "787.d7ece244.chunk.js.map": "/Lady-luck-clothing/static/js/787.d7ece244.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f0d503f.css",
+    "static/js/main.2b54c298.js"
+  ]
+}
