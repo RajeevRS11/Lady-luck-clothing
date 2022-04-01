@@ -1,14 +1,20 @@
 .navigation {
-    height: 70px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-  
+    position:fixed;
+    top:0px;
+    background-color: aliceblue;
+    z-index: 1;
+    background-color: #2874f0; color: white;
+    text-shadow: 1px 1px 1px black, 2px 1px 1px black;
+    
     .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
+      height: 15px;
+      width: 110px;
+      padding: 0px 20px;
     }
   
     .nav-links-container {
@@ -17,10 +23,15 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      padding-right: 50px;
+      
   
       .nav-link {
         padding: 10px 15px;
         cursor: pointer;
+        color: white;
+        text-shadow: 1px 1px 1px black, 2px 1px 1px black;
+        font-weight:bold;
       }
     }
   }

@@ -1,7 +1,7 @@
 import { Fragment, useContext } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import './nav.style.scss';
-import { ReactComponent as CrownLogo } from '../../assets/crown.svg';
+import { ReactComponent as CrownLogo } from '../../assets/kingscrwn.svg';
 import { UserContext } from '../../contexts/user.context';
 import { CartContext } from '../../contexts/cart.context';
 import CartIcon from '../../components/cart-icon/cart-icon.component';
@@ -24,13 +24,13 @@ export default function NavBar() {
                         SHOP
                     </Link>
                     {currentUser ? (
-                        <span className='nav-link' onClick={signOutUser}>SIGN OUT</span>
+                        <span className='nav-link' onClick={signOutUser}>LOGOUT</span>
                     ) : (<Link className='nav-link' to='/auth'>
-                        SIGN IN
+                        LOG IN
                     </Link>
                     )}
 
-                    <CartIcon />
+                    <CartIcon /><strong>CART</strong>
                 </div>
                 { isCartOpen && <CardDropdown />}
             </div>

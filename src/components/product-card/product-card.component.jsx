@@ -5,10 +5,10 @@ import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context';
 
 export default function ProductCard(props) {
-    const { name, price, imageUrl } = props.Product;
+    const { name, price, imageUrl } = props.product;
     const { addItemsToCart } = useContext(CartContext);
 
-    const addProductToCart =() => addItemsToCart(props.Product)
+    const addProductToCart =() => addItemsToCart(props.product)
   return (
     <div className='product-card-container'>
         <img src={imageUrl} alt={`${name}`}/>

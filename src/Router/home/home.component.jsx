@@ -1,5 +1,5 @@
 import { Data } from './data';
-import CategoriesContainer from '../../components/categories-component/categories.conatiner';
+import Directory from '../../components/directory/directory.component';
 import { Outlet } from 'react-router-dom';
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
   
   return (
     <>
-    <CategoriesContainer Categories={categories} />
+    <Directory Categories={categories} />
     <Outlet />
     </>
   )
